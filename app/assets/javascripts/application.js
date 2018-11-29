@@ -38,7 +38,7 @@ function speech () {
 }
 
 var synth = window.speechSynthesis;
-var utterance = new SpeechSynthesisUtterance('Hello my name is Alim');
+var utterance = new SpeechSynthesisUtterance('Hello all,What are you doing?,Would you, please, keep an eye on my baggage?,Dont you like it?');
 
 function talk () {
   synth.speak (utterance);
